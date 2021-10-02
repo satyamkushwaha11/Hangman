@@ -8,7 +8,7 @@
 
 
 
-
+#ok
 
 # def compword():     #funtion -- computer create a 8 letter word
 #     c_word=""
