@@ -1,4 +1,5 @@
 
+
 import random,re
 from hangmanImage import image
 from time import sleep, strftime
@@ -58,7 +59,7 @@ def manu():
             oo+=t
 
 
-        print(cWord)
+        
         print()
         lifeuse=0
         liferem=8
@@ -82,7 +83,7 @@ def manu():
 
             if gs in cWord  :
                 if gs not in oo:
-                    print('\n correct guess--..')
+                    print('-------------------------------------------------\n\n\n\n correct guess--..')
                     oo=update(oo,gs,cWord)
                    
                     if oo==cWord:
@@ -93,13 +94,13 @@ def manu():
                     print('you chossen it .  pls.. tyr another letter ...')
                     continue
             else:
-                print('Wrong guess ..')
+                print('--------------------------------------------------------------------\n\n\n\nWrong guess ..')
                 sleep(1)
                 lifeuse+=1
                 liferem-=1
 
             
-            print()
+            print('---------------------------------------------')
 
     elif a==2:
         game_rules()
