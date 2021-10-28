@@ -1,4 +1,8 @@
-class image():
+#In this file I created a class of images 
+# I will use this file for taking images of hangman by importing this file in my main file of hangman game
+
+class image():  
+	#first image
 	def img1():
 		for row in range(20):
 			for col in range(35):
@@ -9,7 +13,7 @@ class image():
 			print(' ')
 		print()
 		print()
-
+	#second image
 	def img2():
 		for row in range(20):
 			for col in range(35):
@@ -19,7 +23,7 @@ class image():
 					print(end=' ')
 			print(' ')
 		print()
-
+	#third image
 	def img3():			
 		for row in range(20):
 			for col in range(35):
@@ -31,6 +35,8 @@ class image():
 					print(end=' ')
 			print(' ')
 		print()
+		
+	#forth image
 	def img4():
 		for row in range(20):
 			for col in range(35):
@@ -42,6 +48,8 @@ class image():
 					print(end=' ')
 			print(' ')
 		print()
+		
+	#fifth image
 	def img5():
 		for row in range(20):
 			for col in range(35):
@@ -57,7 +65,7 @@ class image():
 			print(' ')
 
 		print()
-
+	#sixth image
 	def img6():
 		for row in range(20):
 			for col in range(35):
@@ -73,7 +81,7 @@ class image():
 			print(' ')
 		print()
 
-
+	#seventh image
 	def img7():
 		for row in range(20):
 			for col in range(35):
@@ -89,7 +97,7 @@ class image():
 					print(end=' ')
 			print(' ')
 
-
+	#eight image
 	def img8():
 		for row in range(20):
 			for col in range(35):
