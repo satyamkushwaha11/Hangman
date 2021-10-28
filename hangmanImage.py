@@ -1,7 +1,8 @@
 #In this file I created a class of images 
 # I will use this file for taking images of hangman by importing this file in my main file of hangman game
 
-class image():  
+
+class image(): 
 	#first image
 	def img1():
 		for row in range(20):
